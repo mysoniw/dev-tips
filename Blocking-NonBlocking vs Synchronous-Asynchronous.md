@@ -122,7 +122,7 @@ Node.js 쪽에서 callback 지옥을 헤치면서 Async로 전진해와도, 결�
 >    - 바로 리턴하면 NonBlocking
 >    
 >- **Synchronous/Asynchronous는 호출되는 함수의 작업 완료 여부를 누가 신경쓰냐가 관심사**
->    - 함수의 작업 완료를 호출한 함수가 신경쓰면 Synchronous
+>    - 함수의 작업 완료를 호출한 함수가 신경쓰지 않으면 Synchronous
 >    - 함수의 작업 완료를 호출된 함수가 신경쓰면 Asynchronous
 >    
 >- 성능 상으로 가장 유리한 모델은 Async-NonBlocking 모델이다.
